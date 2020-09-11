@@ -1,0 +1,13 @@
+This directory is empty by default. Please copy required downloads here.
+
+But... Look, here's some SHA256 sums for you!
+
+5add1a3395d2e978674e1706536d17e7b1c4a77ba24ab9ab0ad2b009e1d7a69d  External-VM.ova
+ad3a12bf8b4987bff2f433cbb52d808ebea3956fe248c4b569f34f67df98b01f  Nested_ESXi7.0_Appliance_Template_v1.ova
+fd1712b1bcad03cfa9fbae240f5c2908bc0e6b0b1afe3456000a11d9f12c4294  nsx-edge-3.0.1.0.0.16404482.ova
+29e5dbfe76f61bffba94918ea794bf73aac736443acf9145ca7e4998288bd61a  nsx-edge-3.0.1.1.0.16556507.ova
+8c48c4de0eff1cc70c9bfc3364fa4aaf439d8e50561523862df3eb8a0f0e9af3  nsx-unified-appliance-3.0.1.0.0.16404476.ova
+e6236de18201220b418b7b1f6420d2a48c06defb493174becb0b3efe01896bef  nsx-unified-appliance-3.0.1.1.0.16556500.ova
+b9be62bc191c083b45d457540e99374468026fae8b4c6454f25644ac3c38155c  Victim-VM.ova
+ef80adb2642bafc06a6eb1abddde0b93df77af53bbc1d5572c6a942393bc1dea  VMware-VCSA-all-7.0.0-16749653.iso
+fafa161fffbea8f18f3b1be1a754ef010b3b6720b437c52b3a0c691261296f13  VMware-VCSA-all-7.0.0-16386292.iso
