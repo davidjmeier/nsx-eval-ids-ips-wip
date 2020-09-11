@@ -17,7 +17,7 @@ after validation if it makes sense.  Instructions specific to this version are h
 * Pull updated PowerCLI base container:
   * `docker pull djmeier/powerclicore-nsx:latest`
 * Pull project files from temporary GitHub repo:
-  * `https://github.com/davidjmeier/nsx-eval-ids-ips-wip`
+  * `git pull https://github.com/davidjmeier/nsx-eval-ids-ips-wip`
 * Rename `Nested Lab Deployment.template` to `Nested Lab Deployment.ps1`.
 * Modify `Nested Lab Deployment.ps1`.
   * Enter credential and license information where appropriate.
