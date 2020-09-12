@@ -18,7 +18,7 @@
 #
 ##################################################
 if [[ -x "$(command -v docker)" ]]; then
-    docker run --rm -it --network host --workdir="/scripts" --entrypoint="/usr/bin/pwsh" -v ${PWD}:/scripts vmware/powerclicore "Nested Lab Deployment.ps1"
+    docker run --rm -it --network host --workdir="/scripts" --entrypoint="/usr/bin/pwsh" -v ${PWD}:/scripts djmeier/powerclicore-nsx:latest "Nested Lab Deployment.ps1"
 else
     echo "### Docker not installed, exiting."
 fi
