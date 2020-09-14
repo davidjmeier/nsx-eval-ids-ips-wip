@@ -10,6 +10,9 @@ $VIPassword = "your-password-here"
 # Uncomment to ignore certificate validity.
 Set-PowerCLIConfiguration -InvalidCertificateAction ignore -confirm:$false
 
+# Uncomment to support multiple vCenter environments.
+Set-PowerCLIConfiguration -DefaultVIServerMode multiple -Confirm:$false
+
 # Path configuration for lab software.  Will work as configured if the correct versions and filenames match.
 # Validate the $ImagePath name exists as a folder from the root of the repository.
 $ImagePath = "lab-software"
