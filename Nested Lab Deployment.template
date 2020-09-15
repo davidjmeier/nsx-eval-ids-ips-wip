@@ -1702,8 +1702,12 @@ if ($setupNewVC -eq 1 -or $deployVictimVM -eq 1) {
 }
 
 if ($postDeployNSXConfig -eq 1 -or $tagVictimVM -eq 1) {
-    My-Logger "Disconnecting from NSX-T Manager ..."
-    Disconnect-NsxtServer * -Confirm:$false
+    if ($global:DefaultNsxtServers.Count -eq 0) {
+        My-Logger "No NSX-T Manager connections found, continuuing..."
+    } else {
+        My-Logger "Disconnecting from NSX-T Manager..."
+        Disconnect-NsxtServer * -Confirm:$false
+    }
 }
 
 $EndTime = Get-Date
