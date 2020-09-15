@@ -1703,7 +1703,7 @@ if ($setupNewVC -eq 1 -or $deployVictimVM -eq 1) {
 
 if ($postDeployNSXConfig -eq 1 -or $tagVictimVM -eq 1) {
     My-Logger "Disconnecting from NSX-T Manager ..."
-    Disconnect-NsxtServer -Confirm:$false
+    Disconnect-NsxtServer * -Confirm:$false
 }
 
 $EndTime = Get-Date
